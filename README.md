@@ -5,11 +5,16 @@ Create a spring boot application that exposes a REST endpoint http://localhost/d
 The input to the API would be a 20 character (alphanumeric) key. The endpoint should check if the key has been sent to the API before and return true in that case. The endpoint should return false if the key is coming in for the first time. The endpoint should be able to scale well and work across restarts of the service. Any open-source library/datastore can be used to achieve this. Please follow TDD and share the unit tests as well in any public Git repo like Github/Bitbucket
 
 # Implemention Details
- Used following frameworks - 
- **Spring Boot**
- **Spring DATA JPA**
- **Datastore - Oracle 11g** (H2 & Redis can also be supported with little minor changes)
- **Swagger2** (For API documentation)
+ Implemented using - 
+ 1. **Spring Boot**
+ 
+ 2. **Spring DATA JPA**
+ 
+ 3. **Datastore - Oracle 11g** (H2 & Redis can also be supported with little minor changes)
+ 
+ 4. **Swagger2** (For API documentation)
+ 
+ The pending things integrated with Sonarqueue, Jacoco for test results and code coverage verification. The api authentication using bearer token
  
  # How to test
  1. Use STS tool
@@ -17,6 +22,12 @@ The input to the API would be a 20 character (alphanumeric) key. The endpoint sh
   
  Test with post or swagger2 interface
  1. http://localhost:8081/swagger-ui.html#/  
+ 
+ ![alt text](https://github.com/chethanrepo/tarento/blob/master/docs/search_post_man.png)
+ ![alt text](https://github.com/chethanrepo/tarento/blob/master/docs/swagger1.png)
+ ![alt text](https://github.com/chethanrepo/tarento/blob/master/docs/swagger2.png)
+ ![alt text](https://github.com/chethanrepo/tarento/blob/master/docs/swagger3.png)
+
  
  
  
