@@ -14,7 +14,7 @@ The input to the API would be a 20 character (alphanumeric) key. The endpoint sh
  
  4. **Swagger2** (For API documentation)
  
- The pending things integrated with Sonarqueue, Jacoco for test results and code coverage verification. The api authentication using bearer token
+ The pending things - Integration with Sonarqube, Jacoco for test results and code coverage verification. The api authentication using bearer token  - will push the code soon.
  
  # How to test
  1. Use STS tool
