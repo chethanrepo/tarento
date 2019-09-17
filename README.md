@@ -20,13 +20,12 @@ The input to the API would be a 20 character (alphanumeric) key. The endpoint sh
  1. Use STS tool
  2. Run as spring boot application
   
- Test with post or swagger2 interface
+ Test with postman or swagger2 interface
  1. http://localhost:8081/swagger-ui.html#/  
  
  ![alt text](https://github.com/chethanrepo/tarento/blob/master/docs/search_post_man.png)
  ![alt text](https://github.com/chethanrepo/tarento/blob/master/docs/swagger1.png)
  ![alt text](https://github.com/chethanrepo/tarento/blob/master/docs/swagger2.png)
- ![alt text](https://github.com/chethanrepo/tarento/blob/master/docs/swagger3.png)
 
  
  
