@@ -23,7 +23,7 @@ The input to the API would be a 20 character (alphanumeric) key. The endpoint sh
   
   **$docker ps**             //to the verify containers list
   
-  2. Access the url with docker-machine default ip 
+  2. Access the url with docker-machine default ip (GET query on postman)
      http://192.168.99.100:8081/duplicatecheck?searchString=12345678901234567890
   
  
