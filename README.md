@@ -16,7 +16,18 @@ The input to the API would be a 20 character (alphanumeric) key. The endpoint sh
  
  The pending things - Integration with Sonarqube, Jacoco for test results and code coverage verification. The api authentication using bearer token  - will push the code soon.
  
- # How to test
+ # How to run on containers
+  1. open your docker quick start terminal & run following commands
+  
+  **$docker-compose up -d**    // start the containers in backgroud
+  
+  **$docker ps**             //to the verify containers list
+  
+  2. Access the url with docker-machine default ip 
+     http://192.168.99.100:8081/duplicatecheck?searchString=12345678901234567890
+  
+ 
+ # How to test on eclipse
  1. Use STS tool
  2. Run as spring boot application
   
